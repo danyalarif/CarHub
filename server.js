@@ -11,6 +11,6 @@ app.use('/', userRouter)
 mongoose.connect(dbURL, (err) => {
     if (err) return
 })
-app.listen(3000, () => {
+app.listen(4000, () => {
     console.log('server listening on port 3000')
 })
